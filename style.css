@@ -67,7 +67,7 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
-
+/*Styles for header*/
  .logo img {
   height: 7rem;
   border-right: none;
@@ -81,13 +81,16 @@ body {
 
 li:last-child {
   border-radius: 2rem;
-background-color: grey;
+  color: white;
+background-color: rgb(0, 0, 0);
   margin: 0;
   padding: 1rem;
   overflow: hidden;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 25px;
 }
+
+/*Styles for hero*/
 
 .hero h1{
   font-size: 2rem;
@@ -104,6 +107,8 @@ font-size: 25px;
   letter-spacing: 0.3rem;
   text-align: center;
 }
+
+/*Styles for skills*/
 
 .grid-container {
   display: grid;
@@ -177,7 +182,7 @@ margin: none;
 
 .thing img{
   border-radius: 2rem;
-  height: 20rem;
+  height: 23rem;
 }
 
 .thing:last-child {
@@ -206,7 +211,7 @@ margin: none;
   border-radius: 3rem;
 }
 
-
+/*styles for my work*/
 .my-work h2 {
   font-size: 2rem;
   font-weight: bold;
@@ -291,6 +296,8 @@ margin: none;
   padding: 1rem;
 }
 
+/*Styles for book call*/
+
 .book-call  {
   background-color: #65639b;
   color: #000000;
@@ -302,5 +309,16 @@ margin: none;
   box-shadow: #000000 0px 8px 40px;
 }
 
+.book-call h3{
+  color: white;
+  background-color: #000000;
+  border-radius: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
 
-
+.footer ul{
+  background-color: #000000;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
