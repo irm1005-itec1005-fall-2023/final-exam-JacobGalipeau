@@ -122,30 +122,36 @@ font-size: 25px;
   grid-column: 1 / span 2;
   grid-row: 1;
   background-color:  #cdb4db;
+  box-shadow: #000000 0px 8px 40px;
 }
 
 .item2 {
   grid-column: 3;
   grid-row: 1 / span 2;
   background-color: #ffc8dd;
+  box-shadow: #000000 0px 8px 40px;
 }
 
 .item3{
   background-color: #bde0fe;
+  box-shadow: #000000 0px 8px 40px;
 }
 .item4{
   background-color: #65639b;
+  box-shadow: #000000 0px 8px 40px;
 }
 
 .item5 {
   grid-column: 1 / span 3;
   grid-row: 3;
   background-color: #ffafcc;
+  box-shadow: #000000 0px 8px 40px;
 }
 
 .item6 {grid-column: 1 / span 4;
   grid-row: 4;
   background-color: aquamarine;
+  box-shadow: #000000 0px 8px 40px;
 }
 
 /*About me section styles*/
@@ -200,17 +206,20 @@ margin: none;
   border-radius: 3rem;
 }
 
+
 .my-work h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   color: #000000;
+
 }
 
 .responsive1 {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
+  background-color: #f7ead7;
 }
 
 .gallery1 img{
@@ -218,10 +227,18 @@ margin: none;
   border-color: #000000;
 }
 
+.gallery1 p{
+  background-color: #ffc8dd;
+  border-radius: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
 .responsive2 {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
+  background-color: #f7ead7;
 }
 
 .gallery2 img{
@@ -229,10 +246,18 @@ margin: none;
   border-color: #000000;
 }
 
+.gallery2 p{
+  background-color: #ffc8dd;
+  border-radius: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
 .responsive3 {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
+  background-color: #f7ead7;
 }
 
 .gallery3 img{
@@ -240,14 +265,42 @@ margin: none;
   border-color: #000000;
 }
 
+.gallery3 p{
+  background-color: #ffc8dd;
+  border-radius: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
 
 .responsive4 {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
+  background-color: #f7ead7;
 }
 
 .gallery4 img{
   border-radius: 2rem;
   border-color: #000000;
 }
+
+.gallery4 p{
+  background-color: #ffc8dd;
+  border-radius: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.book-call  {
+  background-color: #65639b;
+  color: #000000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.45rem;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: #000000 0px 8px 40px;
+}
+
+
+
