@@ -67,3 +67,25 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+
+ .logo img {
+  height: 7rem;
+  border-right: none;
+ }
+
+ ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li:last-child {
+  border-radius: 2rem;
+background-color: grey;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 25px;
+}
+
